@@ -1,0 +1,18 @@
+IP Address Indicator for GNOME Shell
+
+A GNOME Shell extension that displays your current public and local IP addresses in the top panel. Perfect for developers, network administrators, or anyone who needs quick access to their IP information.
+
+
+Features
+
+    🌐 Public IP Display: Shows your public IP address using ipify API
+
+    🏠 Local IP Display: Shows your local network IP address
+
+    ⚙️ Customizable: Choose which IPs to display (public, local, or both)
+
+    🎯 Panel Placement: Position the indicator on left, center, or right of panel
+
+    🔄 Auto-refresh: Configurable refresh interval for IP updates
+
+    🎨 Native Integration: Blends seamlessly with GNOME Shell
