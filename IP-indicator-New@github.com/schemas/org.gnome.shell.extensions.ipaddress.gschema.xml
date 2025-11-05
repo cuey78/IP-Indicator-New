@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.ipaddress" path="/org/gnome/shell/extensions/ipaddress/">
+    <key name="placement" type="s">
+      <default>'right'</default>
+      <summary>Panel placement</summary>
+      <description>Where to show the indicator in the panel</description>
+    </key>
+    <key name="refresh-interval" type="i">
+      <default>300</default>
+      <summary>Refresh interval</summary>
+      <description>Seconds between IP address updates</description>
+    </key>
+    <key name="show-public-ip" type="b">
+      <default>true</default>
+      <summary>Show public IP</summary>
+      <description>Whether to display the public IP address</description>
+    </key>
+    <key name="show-local-ip" type="b">
+      <default>true</default>
+      <summary>Show local IP</summary>
+      <description>Whether to display the local IP address</description>
+    </key>
+  </schema>
+</schemalist>
