@@ -3,6 +3,7 @@
 A GNOME Shell extension that displays your current public and local IP addresses in the top panel.
 
 ![GNOME Shell Extension](https://img.shields.io/badge/GNOME-49%2B-blue?logo=gnome)
+![GNOME Shell Extension](https://img.shields.io/badge/GNOME-48%2B-blue?logo=gnome)
 
 
 ## Features
