@@ -1,0 +1,12 @@
+{
+    "uuid": "IP-indicator-New@github.com",
+    "name": "IP Address Indicator - New", 
+    "description": "Shows Current Public IP Address of the system uses ipify API",
+    "shell-version": [
+    "48",
+    "49"
+    ],
+    "url": "https://github.com/cuey78/ipaddress-indicator",
+    "settings-schema": "org.gnome.shell.extensions.ipaddress",
+    "version": 2
+}
