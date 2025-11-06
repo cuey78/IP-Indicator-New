@@ -20,5 +20,5 @@ A GNOME Shell extension that displays your current public and local IP addresses
 ### Manual Installation
 ```bash
 git clone https://github.com/cuey78/IP-Indicator-New.git
-cd IP-indicator-New
+cd IP-Indicator-New
 cp -r IP-indicator-New@github.com ~/.local/share/gnome-shell/extensions/
