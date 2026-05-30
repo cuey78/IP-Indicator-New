@@ -4,9 +4,10 @@
     "description": "Shows Current Public IP Address of the system uses ipify API",
     "shell-version": [
     "48",
-    "49"
+    "49",
+    "50"
     ],
     "url": "https://github.com/cuey78/ipaddress-indicator",
     "settings-schema": "org.gnome.shell.extensions.ipaddress",
-    "version": 2
+    "version": 3
 }
