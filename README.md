@@ -8,7 +8,7 @@ A GNOME Shell extension that displays your current public and local IP addresses
 
 ## Features
 
-- 🌐 **Public IP Display**: Shows your public IP address using ipify API
+- 🌐 **Public IP Display**: Shows your public IP address 
 - 🏠 **Local IP Display**: Shows your local network IP address
 - ⚙️ **Customizable**: Choose which IPs to display (public, local, or both)
 - 🎯 **Panel Placement**: Position the indicator on left, center, or right of panel
