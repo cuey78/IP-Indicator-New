@@ -178,14 +178,24 @@ export default class IPAddressExtension extends Extension {
 
     _getLocalIP() {
         try {
-            const [ok, out] = GLib.spawn_command_line_sync("hostname -I");
+            const [ok, out] = GLib.spawn_command_line_sync(
+                "/usr/bin/ip -4 -o addr show scope global"
+            );
+
             if (ok && out) {
-                const ip = new TextDecoder().decode(out).trim().split(" ")[0];
-                return ip || "N/A";
+                const lines = new TextDecoder()
+                    .decode(out)
+                    .trim()
+                    .split("\n");
+
+                if (lines.length > 0 && lines[0]) {
+                    return lines[0].split(/\s+/)[3].split("/")[0];
+                }
             }
         } catch (e) {
             logError(e);
         }
+
         return "N/A";
     }
 }
